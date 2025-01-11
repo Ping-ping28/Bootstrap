@@ -182,7 +182,7 @@
       >
         <!-- Welcome title -->
         <div>
-          <h1 class="text-primary text-center m-5">ABOUT BOOTSTRAP</h1>
+          <h1 class="text-primary text-center m-5 element">WELCOME BOOTSTRAP</h1>
         </div>
         <div class="row">
           <!-- card1 -->
@@ -500,19 +500,6 @@
       src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
       type="module"
     ></script>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-      var typed3 = new Typed("#typed3", {
-        strings: ["<i></i><i>Get Start With Your Style</i> "],
-        typeSpeed: 50,
-        backSpeed: 40,
-        smartBackspace: true,
-        backDelay: 1000,
-        loop: true,
-        showCursor: true,
-        cursorChar: "",
-      });
-    </script>
     <!-- partical.js -->
     <script src="particles.js"></script>
     <script src="app.js"></script>
@@ -522,5 +509,22 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+     <!-- Type.js animation -->
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script>
+      var type = new Typed('.element', {
+    strings: ['WELCOME BOOTSTRAP'],
+    typeSpeed: 100,
+    backSpeed: 100 ,
+    smartBackspace: true, 
+    backDelay: 1000,
+    loop: true,
+    showCursor: true,
+    cursorChar: ''
+
+  });
+  </script>
+  
+   
   </body>
 </html>
